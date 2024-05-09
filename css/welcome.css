@@ -1,6 +1,11 @@
 .welcome {
-    position: relative; /* Needed for correct positioning of the video and content */
-    color: #000; /* Dark text for contrast */
+    position: relative;
+    color: #000;
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    min-height: 100vh; /* Makes section take at least the full viewport height */
+    padding: 50px 0; /* Adds more padding for a bigger look */
 }
 
 /* Adding styles for the video */
@@ -28,7 +33,6 @@
 .welcome a {
     background-color: #ff9900;
     color: #222222;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
 }
 
 .welcome a:hover {
@@ -39,8 +43,6 @@
 .welcome h4 {
     margin-top: 72px;
     color: #fff; /* Changed to white for visibility */
-    /* Consider adding a text shadow if the video background is too dynamic */
-    text-shadow: 1px 1px 0px rgba(0,0,0,0.7), 2px 2px 0px rgba(0,0,0,0.4); /* Optional for better text readability */
 }
 
 .welcome p {

@@ -66,3 +66,10 @@
     border-radius: 10px;
     color: #fff; /* White text for better contrast */
 }
+
+@media (max-width: 768px) {
+    .feature-item{
+        margin-top:10px
+    }
+    
+}
