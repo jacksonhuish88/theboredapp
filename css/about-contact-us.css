@@ -1,41 +1,31 @@
-.about-us {
-    background-color: #ff9900; /* Light gray background */
-    color: #000; /* Dark text for better readability */
-    padding: 15px 0px;
+.bg-orange {
+    background-color: #ff9900; /* Orange background */
 }
 
-.about-us h2 a{
-    color:#fff;
+.text-white {
+    color: #fff; /* White text for better readability */
 }
 
-.about-us .btn{
+.about-us .btn {
     background-color: #fff;
-    color:#000;
-    font-size:28px;
-    padding:5px 8px 5px 8px;
-    margin:5px 5px 5px 8px;
+    color: #000;
+    font-size: 28px;
+    padding: 5px 8px;
+    margin: 5px;
 }
-.about-us .btn:hover{
+
+.about-us .btn:hover {
     background-color: #242424;
-    color:white
+    color: #fff;
 }
 
-.about-us-form {
-    max-width: 500px; /* Set a max-width for the form */
-    margin: 0 auto; /* Center the form horizontally */
-}
-
-iframe{
-    min-width: 500px;
-    min-height:500px;
+.about-us iframe.contact-us-form {
+    height: 500px;
+    border: none; /* Removes the border around the iframe */
 }
 
 @media (max-width: 768px) {
-    iframe {
-        width: 10px !important;
+    .about-us iframe.contact-us-form {
+        height: 300px; /* Smaller height for mobile devices */
     }
-}
-
-.list-unstyled a{
-    text-decoration: none;
 }
