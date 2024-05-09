@@ -6,8 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <!-- Company Info -->
                 <div class="col-md-6">
                     <div class="footer-brand d-flex align-items-center">
-                        <i class="fa-solid fa-xl fa-hand-spock nav-overview-title icon-large"></i>
-                        <h2 class="nav-overview-title ms-2">The Bored App</h2>
+                        <img src="./img/wBored-nbg.png" alt="Bored Logo" style="width:150px">
                     </div>
                     <p>Our squad tackles your downtime with the enthusiasm of a kid in a candy store. From boredom-busting maps to swipe-and-chat features, we coddle your leisure time like a precious gem. We're all about the laid-back fun, so leave the yawns to your favorite boring TV shows.</p>
                     <a href="#" class="btn btn-primary">Leave a Review!</a>

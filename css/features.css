@@ -1,0 +1,68 @@
+.feature {
+    /* Full screen background */
+    position: relative;
+    min-height: 25vh;
+    width: 100vw;
+    background-image: url(../img/danny-howe-bn-D2bCvpik-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Opacity with overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Assuming white text */
+
+    /* Adding an overlay for opacity control */
+    ::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+.feature i {
+    margin-bottom: 20px;
+    color: #ff9900; /* Adjust the color to match your theme */
+}
+
+.feature h3 {
+    color: #fff; /* Adjust the color to match your theme */
+}
+
+.feature p{
+    font-size: 18px;
+}
+
+.feature-item {
+    padding: 25px;
+    background-color: #040403; /* Dark background */
+    border-radius: 10px;
+    color: #fff; /* White text for better contrast */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.feature-item i {
+    color: #ff9900; /* Orange icons */
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    color: #fff; /* White text for headings */
+}
+
+.feature-item p {
+    font-size: 18px; /* Slightly larger text size */
+}
+
+.feature-item::after{
+    padding: 25px;
+    background-color: #040403; /* Dark background */
+    border-radius: 10px;
+    color: #fff; /* White text for better contrast */
+}

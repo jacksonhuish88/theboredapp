@@ -1,0 +1,58 @@
+
+.footer {
+    background-color: #000; /* Dark gray background */
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 12px;
+    margin-top:16px;
+    font-size: 28px;
+}
+
+.footer p, .footer a {
+    color: #fff; /* Light gray text */
+    line-height: 1.8;
+}
+
+.footer a:hover {
+    background-color: #242424;
+    color:white
+}
+
+.footer-logo {
+    margin-bottom: 200px;
+}
+
+.footer-brand {
+    display: flex; /* Use flexbox to align items on the same line */
+    align-items: center; /* Align items vertically */
+}
+
+.footer-brand i {
+    font-size: 2rem; /* Adjust this as necessary */
+    margin-right: 1rem; /* Adds some space between the icon and the text */
+}
+
+/* This class is added to ensure no margin at the bottom of the h3 causes alignment issues */
+.footer-brand h3.mb-0 {
+    margin-bottom: 0; /* Removes the bottom margin from h3 */
+}
+
+.social-media a {
+    color: #aaa;
+    margin-right: 10px;
+}
+
+.social-media a:hover {
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .footer .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
