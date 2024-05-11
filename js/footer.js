@@ -29,10 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     <i style="font-size:1.5rem" class="fa-solid fa-sm fa-envelope text-white me-2 nav-overview-title"></i>
                     <p style="margin-top:12px"><a href="mailto:admin@theboredapp.com">admin@theboredapp.com</a></p>
                     </div>
-                    <address>555 Country Cottage Drive, Wasatch County, UT</address>
                     <!-- Social Media Icons -->
                     <div class="social-media">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
